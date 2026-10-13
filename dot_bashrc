@@ -116,6 +116,34 @@ if ! shopt -oq posix; then
   fi
 fi
 
+# If SSH_AUTH_SOCK is not set or is dead, try to set it.
+if [ -z "$SSH_AUTH_SOCK" ] || [ ! -S "$SSH_AUTH_SOCK" ]; then
+    if [ -n "$XDG_RUNTIME_DIR" ]; then
+        # Check standard socket names across distros and desktop environments:
+        # - openssh_agent: Debian / Ubuntu systemd socket
+        # - ssh-agent.socket: Arch / Fedora / standard systemd unit
+        # - keyring/ssh: GNOME Keyring
+        for sock in \
+            "$XDG_RUNTIME_DIR/openssh_agent" \
+            "$XDG_RUNTIME_DIR/ssh-agent.socket" \
+            "$XDG_RUNTIME_DIR/keyring/ssh"
+        do
+            if [ -S "$sock" ]; then
+                export SSH_AUTH_SOCK="$sock"
+                break
+            fi
+        done
+    fi
+fi
+
+# Add SSH key to the agent if it exists and is not already added.
+if [ -f ~/.ssh/id_ed25519.pub ]; then
+    pub_key=$(awk '{print $2}' ~/.ssh/id_ed25519.pub)
+    if ! ssh-add -L 2>/dev/null | grep -qF "$pub_key"; then
+        ssh-add ~/.ssh/id_ed25519
+    fi
+fi
+
 export PATH="$PATH:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/bin"
 export EDITOR="code -n -w"
 
