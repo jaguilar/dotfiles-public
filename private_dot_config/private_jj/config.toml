@@ -1,0 +1,4 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+user.name="James Aguilar"
+user.email="aguilar.james@gmail.com"

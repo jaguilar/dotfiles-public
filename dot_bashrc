@@ -116,9 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PATH="$HOME/.cargo/bin:$PATH"
-# Created by `pipx` on 2026-01-05 23:25:25
-export PATH="$PATH:/home/jaguilar/.local/bin:/home/jaguilar/bin"
-export EDITOR="emacs -nw"
+export PATH="$PATH:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/bin"
+export EDITOR="code -n -w"
 
 export MAKEFLAGS="-j 16"
