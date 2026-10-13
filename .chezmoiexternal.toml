@@ -1,0 +1,4 @@
+["kicad_libs"]
+    type = "git-repo"
+    url = "git@github.com:jaguilar/jaguilar_kicad_symbols.git"
+    refreshPeriod = "168h"

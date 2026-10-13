@@ -1,0 +1,225 @@
+{
+    "packages": [
+        {
+            "current_version": "1.0.3",
+            "install_timestamp": 1769445787,
+            "package": {
+                "author": {
+                    "contact": {
+                        "email": "zhanghaf60@gmail.com"
+                    },
+                    "name": "Huaqiu"
+                },
+                "description": "One-click search for electronic components",
+                "description_full": "This advanced search engine empowers engineers, purchasers, and designers to efficiently locate electronic components by integrating ​multi-dimensional search capabilities and real-time supply chain insights. Designed to streamline workflows from prototyping to mass production, it supports searches via ​Manufacturer Part Number (MPN), ​vague descriptions, ​electrical parameters, and even cross-referencing equivalents.",
+                "identifier": "com.github.Huaqiu-Electronics.kicad-hqsearch-plugin",
+                "license": "MIT",
+                "maintainer": {
+                    "contact": {
+                        "email": "zhanghaf60@gmail.com"
+                    },
+                    "name": "Huaqiu"
+                },
+                "name": "Component Search",
+                "resources": {
+                    "Github": "https://github.com/Huaqiu-Electronics/kicad-hqsearch-plugin.git"
+                },
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "1cceddfc7df0280dc7e32c2c0787eccc265c31b2f275ec6984789720354dc4ac",
+                        "download_size": 1464561,
+                        "download_url": "https://raw.githubusercontent.com/Huaqiu-Electronics/kicad-hqdfm-zip/refs/heads/master/KiCAD-HQSearch-1.0.3.zip",
+                        "install_size": 3444202,
+                        "kicad_version": "8.0",
+                        "status": "stable",
+                        "version": "1.0.3"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "2026.01.07",
+            "install_timestamp": 1769445816,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/Steffen-W"
+                    },
+                    "name": "Steffen Wittemeier"
+                },
+                "description": "Import library files from Octopart, Samacsys, Ultralibrarian, Snapeda and EasyEDA",
+                "description_full": "Import library files from Octopart, Samacsys, Ultralibrarian, Snapeda and EasyEDA.\n For usage and correct setup please read the Readme: \n https://github.com/Steffen-W/Import-LIB-KiCad-Plugin#use-of-the-application",
+                "identifier": "com.github.Steffen-W.impartGUI",
+                "keep_on_update": [
+                    ".*/config.ini"
+                ],
+                "license": "GPL-3.0",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/Steffen-W"
+                    },
+                    "name": "Steffen Wittemeier"
+                },
+                "name": "impart GUI for KiCad",
+                "resources": {
+                    "homepage": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin"
+                },
+                "tags": [
+                    "import",
+                    "library",
+                    "octopart",
+                    "samacsys",
+                    "ultralibrarian",
+                    "snapeda",
+                    "easyeda"
+                ],
+                "type": "plugin",
+                "versions": [
+                    {
+                        "download_sha256": "1eec9b847213d05ca15f959c9e0bf86a22e69154859f2be8b47fa63cc66ea492",
+                        "download_size": 177077,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2026.01.07/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 832252,
+                        "kicad_version": "8.0.4",
+                        "status": "stable",
+                        "version": "2026.01.07"
+                    },
+                    {
+                        "download_sha256": "9f1255472f4299eb8a759ec6439df5ccb7c6d17b693fe62aea4fb66370feba8b",
+                        "download_size": 175068,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2025.12.21/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 823694,
+                        "kicad_version": "8.0.4",
+                        "status": "stable",
+                        "version": "2025.12.21"
+                    },
+                    {
+                        "download_sha256": "2ee18b679a833761030dc8726681004782254f9fa480ee9275687ee795554db5",
+                        "download_size": 170315,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2025.10.18/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 791309,
+                        "kicad_version": "8.0.4",
+                        "status": "stable",
+                        "version": "2025.10.18"
+                    },
+                    {
+                        "download_sha256": "f8113ff67d74ffb92b736a3bf48752e5d62ba14bae558e3579ea61131054901e",
+                        "download_size": 169367,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2025.08.25/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 787353,
+                        "kicad_version": "8.0.4",
+                        "status": "stable",
+                        "version": "2025.08.25"
+                    },
+                    {
+                        "download_sha256": "6173e1070ceee6bda9fb649f3655934520f6bdd87f8d63b48094093ce34680be",
+                        "download_size": 33309,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2025.03.03/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 106506,
+                        "kicad_version": "8.00",
+                        "status": "stable",
+                        "version": "2025.03.03"
+                    },
+                    {
+                        "download_sha256": "0aec88102fd8f7c89f6bf4e5d179e20168abedadb0a09984dd540c684b5e98e9",
+                        "download_size": 65949,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2025.01.21/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 219144,
+                        "kicad_version": "8.00",
+                        "status": "stable",
+                        "version": "2025.01.21"
+                    },
+                    {
+                        "download_sha256": "ca4714f8ba62d3ed148465791bd66449102a2da0f5c78a23e84b5dd2744965a5",
+                        "download_size": 65343,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.08.17/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 217649,
+                        "kicad_version": "8.00",
+                        "status": "stable",
+                        "version": "2024.08.17"
+                    },
+                    {
+                        "download_sha256": "d548dfe9deda47b4a718da35a13215b53016f8bef2d671a421ddfaeccb9943ea",
+                        "download_size": 27869,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.07.11/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 72200,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2024.07.11"
+                    },
+                    {
+                        "download_sha256": "3c4c926d7a00bce0edfcd1ad20ba3be52bb2494f529b2c6198081525dbc32262",
+                        "download_size": 27837,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.04.08/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 72143,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2024.04.08"
+                    },
+                    {
+                        "download_sha256": "747bfdbfc34edc160cbf6f77462c16aa5064c68c1adc076930a1a1c7fef0f695",
+                        "download_size": 27824,
+                        "download_url": "https://github.com/Steffen-W/Import-LIB-KiCad-Plugin/releases/download/2024.02.24/Import-LIB-KiCad-Plugin.zip",
+                        "install_size": 71950,
+                        "kicad_version": "6.00",
+                        "status": "stable",
+                        "version": "2024.02.24"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        },
+        {
+            "current_version": "9.0.0",
+            "install_timestamp": 1769408806,
+            "package": {
+                "author": {
+                    "contact": {
+                        "github": "https://github.com/sparkfun",
+                        "twitter": "https://twitter.com/sparkfun",
+                        "web": "https://sparkfun.com"
+                    },
+                    "name": "SparkFun"
+                },
+                "description": "SparkFun's Libraries for KiCad 7 / 8 / 9",
+                "description_full": "This library contains SparkFun's commonly used parts.\nIt is a cultivated combination of KiCad stock parts, SparkFun-unique footprints, and open-source 3D models.\n\nCheck your settings in Preferences -> Packages and Updates.\nIf you have the default Library nickname prefix 'PCM_', you can proceed to install the libraries through the PCM.\nIf you don't want that prefix, leave that field blank and install the libraries from zip file instead.\nThe installation link below has more details.",
+                "identifier": "com.github.sparkfun.SparkFun-KiCad-Libraries",
+                "license": "CC-BY-4.0",
+                "maintainer": {
+                    "contact": {
+                        "github": "https://github.com/sparkfun",
+                        "twitter": "https://twitter.com/sparkfun",
+                        "web": "https://sparkfun.com"
+                    },
+                    "name": "SparkFun"
+                },
+                "name": "SparkFun KiCad Libraries",
+                "resources": {
+                    "homepage": "https://github.com/sparkfun/SparkFun-KiCad-Libraries",
+                    "installation": "https://github.com/sparkfun/SparkFun-KiCad-Libraries#installing-and-using-these-libraries"
+                },
+                "type": "library",
+                "versions": [
+                    {
+                        "download_sha256": "87119b9f2152413ebf943fe6261338483143636c3c075bee856c2d0a999d58bb",
+                        "download_size": 34532916,
+                        "download_url": "https://github.com/sparkfun/SparkFun-KiCad-Libraries/releases/download/v9.0.0/SparkFun-KiCad-Libraries-9.0.0-with-pcm.zip",
+                        "install_size": 205743035,
+                        "kicad_version": "7.0",
+                        "status": "stable",
+                        "version": "9.0.0"
+                    }
+                ]
+            },
+            "pinned": false,
+            "repository_id": "46f88614eade3439",
+            "repository_name": "KiCad official repository"
+        }
+    ]
+}

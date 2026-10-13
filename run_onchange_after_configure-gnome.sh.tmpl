@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# hash: {{ include "dconf/interface.ini" | sha256sum }}
+# hash: {{ include "dconf/mutter.ini" | sha256sum }}
+
+# If dconf does not exist, exit early.
+if ! command -v dconf &> /dev/null; then
+    echo "dconf not found, skipping GNOME configuration."
+    exit 0
+fi 
+
+dconf load /org/gnome/desktop/interface/ < {{ joinPath .chezmoi.sourceDir "dconf/interface.ini" | quote }}
+dconf load /org/gnome/mutter/ < {{ joinPath .chezmoi.sourceDir "dconf/mutter.ini" | quote }}

@@ -1,0 +1,20 @@
+{
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "makefile.configureOnOpen": true,
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "modifications",
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, Language: Cpp,  IndentWidth: 4, TabWidth: 4, UseTab: Never, ContinuationIndentWidth: 4 , BreakBeforeBraces: Attach ,AllowShortFunctionsOnASingleLine: Empty ,AllowShortIfStatementsOnASingleLine: false, AllowShortLoopsOnASingleLine: false, SpaceInEmptyBlock: true, SpacesInContainerLiterals: true ,SpaceBeforeParens: ControlStatements ,PointerAlignment: Left , ColumnLimit: 0 ,IndentCaseLabels: true ,AlignAfterOpenBracket: Align, BinPackArguments: false, BinPackParameters: false ,AlignOperands: true , SortIncludes: false ,IncludeBlocks: Preserve}",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "clangd.arguments": [
+    "--query-driver=${userHome}/.arduino15/**/*-g++,${userHome}/.arduino15/**/*-gcc"
+  ],
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Gitlab Mono', 'Droid Sans Mono', 'monospace', monospace",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "idf.hasWalkthroughBeenShown": true,
+  "redhat.telemetry.enabled": true
+}
